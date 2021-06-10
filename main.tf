@@ -1,6 +1,6 @@
 terraform {
   backend "local" {}
- path= "/path/to/terraform.tfstate
+    path= "/path/to/terraform.tfstate
 }
 
 provider "aws" {
