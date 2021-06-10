@@ -1,6 +1,6 @@
 terraform {
   backend "local" {}
-  path= "/path/to/terraform.tfstate
+ required_version = ">= 0.14"
 }
 
 provider "aws" {
